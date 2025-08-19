@@ -1,0 +1,130 @@
+/* Base Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Background */
+body {
+  min-height: 100vh;
+  background: linear-gradient(120deg, #f0f4ff, #d9e5ff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+/* Back to Home Button */
+.back-home {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  text-decoration: none;
+  background-color: #ffffffcc;
+  color: #1e3a8a;
+  padding: 10px 20px;
+  border-radius: 30px;
+  box-shadow: 0 4px 10px rgba(30, 58, 138, 0.2);
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+.back-home:hover {
+  background-color: #1e3a8a;
+  color: #fff;
+  box-shadow: 0 0 12px #3b82f6, 0 0 20px #3b82f6;
+}
+
+/* Login Container */
+.login-container {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+}
+
+/* Login Card */
+.login-card {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  padding: 40px 30px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  transition:0.3s;
+}
+.login-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px #00f0ff, 0 0 25px #ff4ff7;
+}
+
+.login-card h2 {
+  color: #1e3a8a;
+  font-size: 28px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.login-card p {
+  color: #444;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+label {
+  display: block;
+  font-weight: 600;
+  margin-top: 15px;
+  color: #1e3a8a;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px 15px;
+  margin-top: 6px;
+  border-radius: 10px;
+  border: 1.5px solid #c7d2fe;
+  background: #f9f9ff;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+input:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 8px #3b82f6aa;
+}
+
+/* Login Button */
+.login-btn {
+  width: 100%;
+  margin-top: 25px;
+  padding: 12px;
+  background: #1e3a8a;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(30, 58, 138, 0.3);
+}
+.login-btn:hover {
+  background-color: #2563eb;
+  box-shadow: 0 0 12px #3b82f6, 0 0 20px #3b82f6;
+}
+
+/* Footer */
+.login-footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+.login-footer a {
+  color: #1e3a8a;
+  text-decoration: none;
+  font-weight: 600;
+}
+.login-footer a:hover {
+  text-decoration: underline;
+}

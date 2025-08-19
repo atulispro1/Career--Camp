@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="carrere camp logo-modified.png">
+  <title>Career Camp</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+    <section id="Home" class="Home"></section>
+
+  <!-- Navigation -->
+  <header class="nav-container">
+    <div class="logo">
+      <img src="carrere camp logo-modified.png" class="logo-img">
+      <span>Career<span>Camp</span></span>
+    </div>
+
+    <input type="checkbox" id="toggle" />
+    <label for="toggle" class="hamburger"><i class="fa-solid fa-bars"></i></label>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#careers">Careers</a></li>
+        <li><a href="#blogs">Blogs</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="login.html" class="btn">Login</a></li>
+        <li><a href="signup.html" class="btn">Signup</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Your Career Starts Here</h1>
+      <p>Explore your potential with the best courses, mentors, and events.</p>
+      <a href="#about" class="cta">Explore More</a>
+    </div>
+    <img src="careerimage.png" alt="Hero Image">
+  </section>
+
+  <!-- Featured Careers -->
+  <section id="careers" class="section">
+    <h2 class="section-title">Featured Career Paths</h2>
+    <div class="card-grid">
+      <div class="card"><img src="coding.png"><h3>Full Stack Developer</h3></div>
+      <div class="card"><img src="exploration.png"><h3>Data & Analytics</h3></div>
+      <div class="card"><img src="ux-design.png"><h3>Design & UX</h3></div>
+      <div class="card"><img src="bullhorn.png"><h3>Digital Marketing</h3></div>
+      <div class="card"><img src="cooperation.png"><h3>Business & Management</h3></div>
+      <div class="card"><img src="graduation.png"><h3>Education & Support</h3></div>
+    </div>
+  </section>
+
+  <!--Featured courses details-->
+    <section id="career-details">
+    <h2 class="section-title">Featured Career Paths details</h2>
+    <div class="card-grid">
+
+        <!-- Full Stack Developer -->
+        <div class="card">
+        <img src="coding.png" alt="Full Stack Developer Icon">
+        <h3>Full Stack Developer</h3>
+        <p>
+            Full Stack Developers are responsible for both the frontend and backend of web applications. This role requires a solid understanding of HTML, CSS, JavaScript, and backend technologies like Node.js, MongoDB, or MySQL. From building interfaces to deploying full web apps, they do it all.
+        </p>
+        <a href="https://www.geeksforgeeks.org/blogs/what-is-full-stack-development/" class="btn-link">Learn More</a>
+        </div>
+
+        <!-- Data & Analytics -->
+        <div class="card">
+        <img src="exploration.png" alt="Data & Analytics Icon">
+        <h3>Data & Analytics</h3>
+        <p>
+            Data Analysts and Data Scientists use tools like Python, SQL, Excel, and Tableau to extract insights from complex datasets. Their role is crucial for decision-making in tech, healthcare, finance, and more. They turn raw data into strategic business intelligence.
+        </p>
+        <a href="https://www.geeksforgeeks.org/data-analysis/data-analysis-tutorial/" class="btn-link">Learn More</a>
+        </div>
+
+        <!-- Design & UX -->
+        <div class="card">
+        <img src="ux-design.png" alt="Design & UX Icon">
+        <h3>Design & UX</h3>
+        <p>
+            Designers and UX experts shape the user experience of digital products. They use tools like Figma and Adobe XD to create wireframes, prototypes, and user interfaces. Their goal is to make apps not only functional but also intuitive and enjoyable to use.
+        </p>
+        <a href="https://www.geeksforgeeks.org/techtips/user-experience-or-ux-design/" class="btn-link">Learn More</a>
+        </div>
+
+        <!-- Digital Marketing -->
+        <div class="card">
+        <img src="bullhorn.png" alt="Digital Marketing Icon">
+        <h3>Digital Marketing</h3>
+        <p>
+            Digital marketers craft strategies to grow brands online using SEO, social media, email campaigns, Google Ads, and influencer outreach. They analyze audience behavior and optimize campaigns to drive results in traffic, leads, and conversions.
+        </p>
+        <a href="https://www.geeksforgeeks.org/blogs/what-is-digital-marketing/" class="btn-link">Learn More</a>
+        </div>
+
+        <!-- Business & Management -->
+        <div class="card">
+        <img src="cooperation.png" alt="Business & Management Icon">
+        <h3>Business & Management</h3>
+        <p>
+            Professionals in this field manage operations, teams, and strategic goals. Roles range from startup founders to project managers and MBAs. Business knowledge, leadership, and communication skills are key to navigating and growing any organization.
+        </p>
+        <a href="https://www.proofhub.com/articles/business-management" class="btn-link">Learn More</a>
+        </div>
+
+        <!-- Education & Support -->
+        <div class="card">
+        <img src="graduation.png" alt="Education & Support Icon">
+        <h3>Education & Support</h3>
+        <p>
+            This path involves teaching, mentoring, content creation, or building communities. You can become an educator, support engineer, or course creator — helping others grow while building a career in edtech or technical support services.
+        </p>
+        <a href="https://focuskeeper.co/glossary/what-is-educational-support" class="btn-link">Learn More</a>
+        </div>
+
+    </div>
+    </section>
+
+
+  <!-- Courses -->
+  <section id="courses" class="section">
+    <h2 class="section-title">Available Courses</h2>
+    <div class="card-grid">
+      <div class="course-card">
+        <img src="sigma.jpg">
+        <h3>Full Stack Developer</h3>
+        <p>A career-ready course covering DSA, MERN, aptitude, and interviews.</p>
+        <a href="https://payments.cashfree.com/forms/sigma-8" class="btn-link">Learn More</a>
+      </div>
+      <div class="course-card">
+        <img src="python-udemy.jpg">
+        <h3>Data & Analytics</h3>
+        <p>Master Python basics & automation skills. Ideal for analytics beginners.</p>
+        <a href="https://ineuron.ai/course/python-crash-course-by-hitesh" class="btn-link">Learn More</a>
+      </div>
+      <div class="course-card">
+        <img src="google.png">
+        <h3>Design & UX</h3>
+        <p>Learn UI/UX using Figma, wireframing, and product design.</p>
+        <a href="https://www.coursera.org/professional-certificates/google-ux-design" class="btn-link">Learn More</a>
+      </div>
+      <div class="course-card">
+        <img src="marketing.webp">
+        <h3>Digital Marketing</h3>
+        <p>Live 19-week program with mentorship and placement assistance.</p>
+        <a href="https://www.kraftshala.com/marketing-launchpad/digital-marketing-course/" class="btn-link">Learn More</a>
+      </div>
+      <div class="course-card">
+        <img src="business.jpeg">
+        <h3>Business & Management</h3>
+        <p>Learn from Wharton: marketing, finance, and strategy basics.</p>
+        <a href="https://www.coursera.org/specializations/wharton-business-foundations" class="btn-link">Learn More</a>
+      </div>
+      <div class="course-card">
+        <img src="education.png">
+        <h3>Education & Support</h3>
+        <p>Free access to 11,000+ courses from top Indian institutions.</p>
+        <a href="https://swayam.gov.in/" class="btn-link">Learn More</a>
+      </div>
+    </div>
+  </section>
+
+ <!--Course Detail-->
+    <h2 class="section-title">Courses Details </h2>
+    <section id="course-details">
+    <!-- Full Stack Developer – Sigma 8.0 -->
+        <div class="course-detail">
+        <h2>Full Stack Developer – Sigma 8.0</h2>
+        <img src="sigma.jpg" alt="Sigma 8.0 Course Banner">
+        <p><strong>Overview:</strong> Sigma 8.0 by Apna College is a complete, career-focused full stack development program for both beginners and intermediates. It includes everything from DSA to frontend/backend tech and placement support with mock interviews.</p>
+        <h3>Syllabus:</h3>
+        <ul>
+            <li>Intro to Programming (C++/Java)</li>
+            <li>Data Structures & Algorithms</li>
+            <li>HTML, CSS, JavaScript</li>
+            <li>React, Node.js, Express, MongoDB</li>
+            <li>Weekly Projects + Hosting</li>
+            <li>Aptitude + Resume Building</li>
+            <li>Mock Interviews</li>
+        </ul>
+        <p><strong>Instructor:</strong> Aman Dhattarwal & Team – Apna College</p>
+        <p><strong>Tags:</strong> #DSA #MERN #JobReady #BeginnerFriendly</p>
+        <a href="https://payments.cashfree.com/forms/sigma-8" class="btn-link">Enroll Now</a>
+        </div>
+
+        <!-- Data & Analytics – Python Crash Course -->
+        <div class="course-detail">
+        <h2>Data & Analytics – Python Crash Course</h2>
+        <img src="python-udemy.jpg" alt="Python Course Banner">
+        <p><strong>Overview:</strong> This course by Hitesh Choudhary teaches Python programming for automation and analytics. It covers all foundational concepts with hands-on examples and prepares you for real-world scripting tasks.</p>
+        <h3>Syllabus:</h3>
+        <ul>
+            <li>Python Basics & Variables</li>
+            <li>Loops & Conditions</li>
+            <li>Functions, Modules, Exceptions</li>
+            <li>File I/O</li>
+            <li>Intro to Pandas & NumPy</li>
+            <li>Simple Data Visualizations</li>
+        </ul>
+        <p><strong>Instructor:</strong> Hitesh Choudhary – iNeuron</p>
+        <p><strong>Tags:</strong> #Python #Analytics #Beginner #iNeuron</p>
+        <a href="https://ineuron.ai/course/python-crash-course-by-hitesh" class="btn-link">Enroll Now</a>
+        </div>
+
+        <!-- Design & UX – Google UX Design -->
+        <div class="course-detail">
+        <h2>Design & UX – Google UX Design Certificate</h2>
+        <img src="google.png" alt="UX Design Banner">
+        <p><strong>Overview:</strong> A beginner-friendly professional certificate from Google that teaches all aspects of UX design, including user research, wireframes, prototypes, usability testing, and building a design portfolio.</p>
+        <h3>Syllabus:</h3>
+        <ul>
+            <li>UX Fundamentals & Process</li>
+            <li>User Personas & Journey Maps</li>
+            <li>Wireframing in Figma</li>
+            <li>Prototyping & Usability Testing</li>
+            <li>Building a UX Portfolio</li>
+        </ul>
+        <p><strong>Instructor:</strong> Google UX Team (via Coursera)</p>
+        <p><strong>Tags:</strong> #UXDesign #Google #Figma #NoExperienceNeeded</p>
+        <a href="https://www.coursera.org/professional-certificates/google-ux-design" class="btn-link">Enroll Now</a>
+        </div>
+
+        <!-- Digital Marketing – Kraftshala Launchpad -->
+        <div class="course-detail">
+        <h2>Digital Marketing – Kraftshala Launchpad</h2>
+        <img src="marketing.webp" alt="Marketing Course Banner">
+        <p><strong>Overview:</strong> A live, mentor-led 19-week course that teaches digital marketing through real-world projects. Covers SEO, Google Ads, social media, branding, and analytics with job placement support.</p>
+        <h3>Syllabus:</h3>
+        <ul>
+            <li>Marketing Basics & Funnels</li>
+            <li>Google Ads & SEO</li>
+            <li>Content Marketing</li>
+            <li>Brand Communication</li>
+            <li>Marketing Analytics</li>
+            <li>Live Campaign Simulations</li>
+        </ul>
+        <p><strong>Instructor:</strong> Kraftshala Industry Experts</p>
+        <p><strong>Tags:</strong> #Marketing #SEO #Mentorship #Placement</p>
+        <a href="https://www.kraftshala.com/marketing-launchpad/digital-marketing-course/" class="btn-link">Enroll Now</a>
+        </div>
+
+        <!-- Business & Management – Wharton Specialization -->
+        <div class="course-detail">
+        <h2>Business & Management – Wharton Business Foundations</h2>
+        <img src="business.jpeg" alt="Business Course Banner">
+        <p><strong>Overview:</strong> This specialization from Wharton (University of Pennsylvania) gives a foundation in strategy, marketing, finance, and operations — ideal for entrepreneurs, MBAs, or corporate professionals.</p>
+        <h3>Syllabus:</h3>
+        <ul>
+            <li>Business Strategy</li>
+            <li>Marketing Fundamentals</li>
+            <li>Accounting & Budgeting</li>
+            <li>Operational Management</li>
+            <li>Capstone Business Project</li>
+        </ul>
+        <p><strong>Instructor:</strong> Wharton School Professors (Coursera)</p>
+        <p><strong>Tags:</strong> #Business #Wharton #IvyLeague #Management</p>
+        <a href="https://www.coursera.org/specializations/wharton-business-foundations" class="btn-link">Enroll Now</a>
+        </div>
+
+        <!-- Education & Support – SWAYAM India -->
+        <div class="course-detail">
+        <h2>Education & Support – SWAYAM India</h2>
+        <img src="education.png" alt="SWAYAM Course Banner">
+        <p><strong>Overview:</strong> SWAYAM is India's official online learning platform offering 11,000+ free courses in engineering, science, arts, commerce, law, and teaching. Certifications are available with optional exams.</p>
+        <h3>Categories:</h3>
+        <ul>
+            <li>Engineering & Technology</li>
+            <li>Humanities & Social Sciences</li>
+            <li>Education & Teacher Training</li>
+            <li>Commerce, Law, and Business</li>
+            <li>Management & Entrepreneurship</li>
+        </ul>
+        <p><strong>Instructor:</strong> Professors from IITs, IIMs, IGNOU, and more</p>
+        <p><strong>Tags:</strong> #SWAYAM #FreeEducation #IndiaGov #Certifications</p>
+        <a href="https://swayam.gov.in/" class="btn-link">Explore Now</a>
+        </div>
+
+    </section>
+
+  <!-- Events -->
+  <section id="events" class="section">
+    <h2 class="section-title">Upcoming Events</h2>
+    <div class="card-grid">
+      <div class="event-card">
+        <img src="aws.png">
+        <h3>Full Stack Web Dev 2025</h3>
+        <p>India's biggest AWS tech summit. Great for freshers!</p>
+        <a href="https://aws.amazon.com/events/summits/bengaluru/" class="btn-link">View Event</a>
+      </div>
+      <div class="event-card">
+        <img src="gartener.png">
+        <h3>Data & Analytics 2025</h3>
+        <p>Explore AI innovations in Mumbai. Future-ready event!</p>
+        <a href="https://www.gartner.com/en/conferences/apac/data-analytics-india" class="btn-link">View Event</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter -->
+    <section class="newsletter-section">
+      <div class="newsletter-container">
+        <h2>📬 Subscribe to Our Newsletter</h2>
+        <p>Get the latest career tips, courses, and events directly in your inbox.</p>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Enter your email" required />
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </section>
+
+    <hr class="section-divider" />
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+    <h2 class="section-title">About CareerCamp</h2>
+    <p>
+        CareerCamp is a passion-driven platform created to guide, inspire, and empower individuals to pursue meaningful careers in today’s digital world.
+        With the growing demand for tech-savvy professionals and the rise of online learning, CareerCamp was launched to help learners acquire practical
+        skills, explore career paths, and find the right learning direction — all through a clean and accessible interface built using just HTML and CSS.
+    </p>
+    <p>
+        Whether you're a complete beginner or someone looking to upskill, CareerCamp offers a carefully structured experience to help you make the
+        most of your learning time. From exploring career roles like Full Stack Developer or UI/UX Designer to reading expert blog posts, browsing
+        online events, or simply staying updated via our newsletter — everything has been designed to simulate the feel of a real-world online platform.
+    </p>
+    <p>
+        This website is entirely coded by a solo developer to showcase how much can be built using just frontend technologies. It’s more than just a
+        portfolio — it’s a complete web project to practice real-world concepts like page layout, component design, responsiveness, and navigation.
+        No frameworks, no backend — just pure semantic HTML and clean CSS.
+    </p>
+    </section>
+
+    <!-- Timeline Section -->
+    <section class="timeline-section">
+    <h2 class="section-title">Our Journey</h2>
+    <ul class="timeline">
+        <li><strong>2020:</strong> The idea for CareerCamp was born — to create a platform for career guidance and learning.</li>
+        <li><strong>2021:</strong> Started building the initial design using HTML and CSS; created the first mockups and layout drafts.</li>
+        <li><strong>2022:</strong> Added pages like Home, Courses, Blogs, Events, Mentors, and Contact — giving it the structure of a real web app.</li>
+        <li><strong>2023:</strong> Made the website fully responsive using Flexbox and Grid. Added newsletter form, login/signup mockups, and dashboard layout.</li>
+        <li><strong>2024:</strong> Expanded the project into a complete assignment-based learning tool, included detailed documentation and polished UI.</li>
+    </ul>
+    </section>
+
+    <!-- Values Section -->
+    <section class="values-section">
+    <h2 class="section-title">Our Core Values</h2>
+    <div class="values-container">
+        <div class="value-card">
+        <h4>1. Growth Mindset</h4>
+        <p>We believe in continuous improvement — anyone can learn and grow with the right mindset and support.</p>
+        </div>
+        <div class="value-card">
+        <h4>2. Accessibility</h4>
+        <p>Learning should be accessible to everyone regardless of background, location, or income.</p>
+        </div>
+        <div class="value-card">
+        <h4>3. Community-Driven</h4>
+        <p>We encourage collaboration and peer-to-peer support to create a vibrant learning ecosystem.</p>
+        </div>
+        <div class="value-card">
+        <h4>4. Practical Skills</h4>
+        <p>We focus on real-world skills that help learners get job-ready, not just theoretical knowledge.</p>
+        </div>
+        <div class="value-card">
+        <h4>5. Honesty & Integrity</h4>
+        <p>Transparency, authenticity, and ethical learning practices are at the heart of everything we do.</p>
+        </div>
+    </div>
+    </section>
+
+    <div id="blogs" class="section">
+        <h2 class="section-title">Latest Blogs & Insights</h2>
+
+        <div class="blog-layout">
+
+            <!-- Blog Content Area -->
+            <div class="blog-content">
+            <div class="blog-card">
+                <img src="web.png" alt="Full Stack Development Trends">
+                <div class="blog-text">
+                <h3>Top Trends in Full Stack Development for 2025</h3>
+                <p>
+                    Explore the latest technologies, frameworks, and job market shifts that are redefining full stack development this year.
+                </p>
+                <p class="blog-date">Published on: June 20, 2025</p>
+                <a href="#blog-detail" class="btn-link">Read More</a>
+                </div>
+            </div>
+
+            <div class="blog-card">
+                <img src="AI.png" alt="AI in Data Analytics">
+                <div class="blog-text">
+                <h3>How AI is Revolutionizing Data Analytics</h3>
+                <p>
+                    A deep dive into how machine learning models are transforming business decisions, dashboards, and predictive insights.
+                </p>
+                <p class="blog-date">Published on: June 10, 2025</p>
+                <a href="#blog-detail1" class="btn-link">Read More</a>
+                </div>
+            </div>
+
+            <div class="blog-card">
+                <img src="UX.webp" alt="UX Best Practices">
+                <div class="blog-text">
+                <h3>10 UX Design Best Practices Every Beginner Should Know</h3>
+                <p>
+                    From user journeys to wireframes, learn the most important principles that make interfaces both useful and beautiful.
+                </p>
+                <p class="blog-date">Published on: May 30, 2025</p>
+                <a href="#blog-detail2" class="btn-link">Read More</a>
+                </div>
+            </div>
+            </div>
+
+            <!-- Blog Sidebar -->
+            <div class="blog-sidebar">
+            <h4>Categories</h4>
+            <ul class="category-list">
+                <li><a href="https://www.geeksforgeeks.org/blogs/what-is-full-stack-development/">Full Stack Development</a></li>
+                <li><a href="https://www.geeksforgeeks.org/data-analysis/data-analysis-tutorial/">Data & Analytics</a></li>
+                <li><a href="https://www.geeksforgeeks.org/techtips/user-experience-or-ux-design/">UI/UX & Design</a></li>
+                <li><a href="https://www.geeksforgeeks.org/blogs/what-is-digital-marketing/">Marketing & SEO</a></li>
+                <li><a href="https://focuskeeper.co/glossary/what-is-educational-support">Career Growth</a></li>
+                <li><a href="https://www.proofhub.com/articles/business-management">Business & Strategy</a></li>
+                <li><a href="https://focuskeeper.co/glossary/what-is-educational-support">Education & Mentoring</a></li>
+            </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="blog-detail" class="section">
+
+        <!-- Blog Banner -->
+        <div class="blog-banner">
+            <img src="Full Stack Developer.webp" alt="Full Stack Development Blog Banner">
+        </div>
+
+        <!-- Blog Meta Info -->
+        <div class="blog-meta">
+            <h1>Top Trends in Full Stack Development for 2025</h1>
+            <p class="author">By <strong>Atul Sharma</strong> | Published on: June 20, 2025</p>
+        </div>
+
+        <!-- Blog Content -->
+        <div class="blog-article">
+            <h2>1. Rise of AI-Powered Development</h2>
+            <p>
+            With tools like GitHub Copilot and ChatGPT, developers can now generate code faster, automate testing, and even write documentation on the fly. AI is becoming a valuable partner in full stack workflows.
+            </p>
+
+            <h2>2. JAMstack Continues to Grow</h2>
+            <p>
+            JAMstack architecture (JavaScript, APIs, and Markup) is being adopted for its speed, security, and scalability. Static site generators like Next.js and Astro are leading the charge.
+            </p>
+
+            <h2>3. Backend-as-a-Service (BaaS) Tools</h2>
+            <p>
+            Platforms like Firebase, Supabase, and Appwrite reduce the need to build your own backend. These services provide authentication, storage, and real-time databases out-of-the-box.
+            </p>
+
+            <h3>Recommended Tool: Supabase</h3>
+            <img src="infra.webp" alt="Supabase Backend Example" style="max-width:100%; border-radius:10px;">
+            <p>
+            Supabase is gaining popularity as an open-source Firebase alternative that uses PostgreSQL under the hood.
+            </p>
+
+            <h2>4. TypeScript is Becoming Standard</h2>
+            <p>
+            Almost all major frameworks (React, Angular, Node) now recommend using TypeScript to catch errors early and improve code readability.
+            </p>
+
+            <h2>5. Real-World Project Focus</h2>
+            <p>
+            Employers want proof of hands-on experience. Learners are now focusing more on building portfolio projects, blogging their process, and contributing to open-source.
+            </p>
+        </div>
+
+    </div>
+
+    <div id="blog-detail1" class="section">
+
+        <!-- Blog Banner -->
+        <div class="blog-banner">
+            <img src="How AI transforms Data Analysis.webp" alt="AI in Data Analytics Banner">
+        </div>
+
+        <!-- Blog Meta Info -->
+        <div class="blog-meta">
+            <h1>How AI is Revolutionizing Data Analytics</h1>
+            <p class="author">By <strong>Atul Sharma</strong> | Published on: June 10, 2025</p>
+        </div>
+
+        <!-- Blog Content -->
+        <div class="blog-article">
+            <h2>1. Automated Data Cleaning</h2>
+            <p>
+            One of the biggest challenges in analytics is preparing clean, structured data. AI algorithms now detect and fix missing values, outliers, and inconsistencies automatically — saving hours of manual effort.
+            </p>
+
+            <h2>2. Predictive Analytics with Machine Learning</h2>
+            <p>
+            AI-powered models can predict customer churn, sales growth, and equipment failure. Companies now use tools like AutoML, TensorFlow, and even Excel with ML plugins to forecast trends.
+            </p>
+
+            <h2>3. Natural Language Processing (NLP)</h2>
+            <p>
+            NLP allows machines to analyze text data such as customer reviews or support tickets. Sentiment analysis, keyword extraction, and text clustering help businesses better understand users.
+            </p>
+
+            <h2>4. Real-Time Dashboards</h2>
+            <img src="AI-in-data-analytics-banners-01-1.png" alt="Real-Time AI Dashboard" style="max-width:100%; border-radius:10px;">
+            <p>
+            AI-enhanced BI tools like Tableau, Power BI, and Looker can now generate visual reports in real-time based on user queries. Some even generate insights through voice commands.
+            </p>
+
+            <h2>5. No-Code AI Analytics Tools</h2>
+            <p>
+            Platforms like MonkeyLearn, Pecan, and Microsoft Fabric let non-programmers build predictive models and run analytics workflows without writing any code.
+            </p>
+        </div>
+
+        <!-- You May Also Like -->
+        <div class="related-blogs">
+            <h3>You May Also Like</h3>
+            <ul>
+            <li><a href="#blog-detail">Top Trends in Full Stack Development for 2025</a></li>
+            <li><a href="#blog-detail2">10 UX Design Best Practices Every Beginner Should Know</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div id="blog-detail2" class="section">
+
+        <!-- Blog Banner -->
+        <div class="blog-banner">
+            <img src="ui-ux-banner.jpg" alt="UX Design Tips Banner">
+        </div>
+
+        <!-- Blog Meta Info -->
+        <div class="blog-meta">
+            <h1>10 UX Design Best Practices Every Beginner Should Know</h1>
+            <p class="author">By <strong>Atul Sharma</strong> | Published on: May 30, 2025</p>
+        </div>
+
+        <!-- Blog Content -->
+        <div class="blog-article">
+            <h2>1. Focus on the User First</h2>
+            <p>
+            Always design with empathy. Understand the user's goals, pain points, and habits before creating any layout or flow.
+            </p>
+
+            <h2>2. Keep Interfaces Simple</h2>
+            <p>
+            A clean, minimal design helps users focus. Avoid visual clutter. Every element should serve a purpose.
+            </p>
+
+            <h2>3. Use Consistent Layouts</h2>
+            <p>
+            Maintain the same structure for repeated pages like forms, cards, and buttons. This reduces cognitive load and makes the product feel familiar.
+            </p>
+
+            <h2>4. Make Navigation Intuitive</h2>
+            <p>
+            Users should always know where they are, and where to go next. Use clear labels, breadcrumbs, and sticky navigation when needed.
+            </p>
+
+            <h2>5. Prioritize Accessibility</h2>
+            <p>
+            Design for everyone: add alt text to images, use high contrast colors, and support keyboard navigation. Accessibility improves UX for all users.
+            </p>
+
+            <img src="9-1.webp" alt="UX Wireframe Example" style="max-width:100%; border-radius:10px;">
+
+            <h2>6–10: Bonus Tips</h2>
+            <ul>
+            <li>Use real content, not Lorem Ipsum</li>
+            <li>Design for mobile-first</li>
+            <li>Use feedback animations (loading, success)</li>
+            <li>Test your design with real users</li>
+            <li>Never stop iterating – UX is never done</li>
+            </ul>
+        </div>
+
+        <!-- You May Also Like -->
+        <div class="related-blogs">
+            <h3>You May Also Like</h3>
+            <ul>
+            <li><a href="#blog-detail">Top Trends in Full Stack Development for 2025</a></li>
+            <li><a href="#blog-detail1">How AI is Revolutionizing Data Analytics</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div id="contact" class="contact-section">
+        <h2>Contact Me</h2>
+        <p>If you have any questions, project inquiries, or just want to connect, feel free to reach out using the form below.</p>
+
+        <form class="contact-form" action="#" method="post">
+            <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Your full name" required>
+            </div>
+
+            <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required>
+            </div>
+
+            <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="What's this about?" required>
+            </div>
+
+            <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" placeholder="Write your message here..." required></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+
+            <!-- Left: Logo/Name -->
+            <div class="footer-brand">
+            <h3>CareerCamp</h3>
+            <p>Empowering learners to build real-world skills, one project at a time.</p>
+            </div>
+
+            <!-- Center: Quick Links -->
+            <div class="footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#careers">Careers</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#blogs">Blogs</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            </div>
+
+            <!-- Right: Social Media (UI only) -->
+            <div class="footer-social">
+            <h4>Follow Us</h4>
+            <div class="social-icons">
+                <a href="#"><img src="icons8-facebook-48.png" alt="Facebook"></a>
+                <a href="#"><img src="icons8-twitter-50.png" alt="Twitter"></a>
+                <a href="#"><img src="icons8-linkedin-48.png" alt="LinkedIn"></a>
+                <a href="#"><img src="icons8-github-64.png" alt="GitHub"></a>
+            </div>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 CareerCamp. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
